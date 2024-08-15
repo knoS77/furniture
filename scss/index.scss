@@ -708,8 +708,7 @@ box-shadow: 0px 4px 20px 0px #96969640;
     }
     }
     .two__block {
-        height: 435px;
-
+        height: 450px;
         }
         .three__block {
             height: 400px;
@@ -784,6 +783,9 @@ box-shadow: 0px 4px 20px 0px #96969640;
 // }
 
 @media (max-width: 380px) {
+    .two__block{
+        height: 450px;
+    }
     #seven{display: none;}
     .title {
         padding: 0px;
