@@ -800,7 +800,7 @@ section {
 }
 @media (max-width: 320px) {
   .two__block {
-    height: 480px;
+    height: 470px;
   }
   #seven {
     display: none;
@@ -813,7 +813,7 @@ section {
     font-size: 40px;
   }
   .three__block {
-    height: 450px;
+    height: 465px;
   }
   .four__block {
     max-width: 300px;
@@ -852,7 +852,7 @@ section {
 }
 @media (max-width: 380px) {
   .three__block {
-    height: 450px;
+    height: 465px;
   }
   #seven {
     display: none;
@@ -867,16 +867,6 @@ section {
   .four__block {
     max-width: 300px;
     height: 240px;
-    gap: 16px;
-    opacity: 0px;
-    border-radius: 8px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
   .four__block img {
     border-radius: 8px;
