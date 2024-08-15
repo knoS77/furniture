@@ -810,51 +810,11 @@ section {
   .title p {
     font-size: 40px;
   }
-  .four__block {
-    max-width: 300px;
-    height: 240px;
-    gap: 16px;
-    opacity: 0px;
-    border-radius: 8px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .two__block {
+    height: 435px;
   }
-  .four__block img {
-    border-radius: 8px;
-  }
-  .five__block {
-    margin: 20px 0 0 0;
-    width: 300px;
-    height: 280px;
-    gap: 18px;
-    border-radius: 15px;
-    border: 1px solid black;
-  }
-  .five__block img {
-    width: 300px;
-  }
-  .seven__block {
-    display: none;
-  }
-  .seven__map {
-    background-position: 50%;
-  }
-}
-@media (max-width: 350px) {
-  #seven {
-    display: none;
-  }
-  .title {
-    padding: 0px;
-    font-size: 40px;
-  }
-  .title p {
-    font-size: 40px;
+  .three__block {
+    height: 400px;
   }
   .four__block {
     max-width: 300px;
