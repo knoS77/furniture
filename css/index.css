@@ -799,6 +799,9 @@ section {
   }
 }
 @media (max-width: 320px) {
+  .two__block {
+    height: 465px;
+  }
   #seven {
     display: none;
   }
@@ -808,9 +811,6 @@ section {
   }
   .title p {
     font-size: 40px;
-  }
-  .two__block {
-    height: 450px;
   }
   .three__block {
     height: 400px;
@@ -852,7 +852,7 @@ section {
 }
 @media (max-width: 380px) {
   .two__block {
-    height: 450px;
+    height: 465px;
   }
   #seven {
     display: none;

@@ -696,6 +696,9 @@ box-shadow: 0px 4px 20px 0px #96969640;
 }
 
 @media (max-width: 320px) {
+    .two__block {
+        height: 465px;
+        }
     #seven{
         display: none;
     }
@@ -707,9 +710,6 @@ box-shadow: 0px 4px 20px 0px #96969640;
 
     }
     }
-    .two__block {
-        height: 450px;
-        }
         .three__block {
             height: 400px;
         }
@@ -784,7 +784,7 @@ box-shadow: 0px 4px 20px 0px #96969640;
 
 @media (max-width: 380px) {
     .two__block{
-        height: 450px;
+        height: 465px;
     }
     #seven{display: none;}
     .title {
