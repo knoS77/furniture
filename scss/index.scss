@@ -826,6 +826,9 @@ box-shadow: 0px 4px 20px 0px #96969640;
 }
 
 @media (max-width: 425px) {
+    .two__block{
+        height: 480px;
+    }
     #seven{display: none;}
     .title {
         padding: 0px;

@@ -900,6 +900,9 @@ section {
   }
 }
 @media (max-width: 425px) {
+  .two__block {
+    height: 480px;
+  }
   #seven {
     display: none;
   }
