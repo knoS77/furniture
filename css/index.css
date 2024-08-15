@@ -813,7 +813,7 @@ section {
     font-size: 40px;
   }
   .three__block {
-    height: 400px;
+    height: 430px;
   }
   .four__block {
     max-width: 300px;
@@ -851,6 +851,9 @@ section {
   }
 }
 @media (max-width: 380px) {
+  .three__block {
+    height: 430px;
+  }
   #seven {
     display: none;
   }

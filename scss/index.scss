@@ -711,7 +711,7 @@ box-shadow: 0px 4px 20px 0px #96969640;
     }
     }
         .three__block {
-            height: 400px;
+            height: 430px;
         }
     .four__block {
         max-width: 300px;
@@ -743,7 +743,9 @@ box-shadow: 0px 4px 20px 0px #96969640;
 }
 
 @media (max-width: 380px) {
-
+    .three__block {
+        height: 430px;
+    }
     #seven{display: none;}
     .title {
         padding: 0px;
@@ -781,6 +783,8 @@ box-shadow: 0px 4px 20px 0px #96969640;
     .seven__map{
         background-position: 50%;
     }
+
+
 }
 
 @media (max-width: 425px) {
