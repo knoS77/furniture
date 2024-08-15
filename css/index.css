@@ -800,7 +800,7 @@ section {
 }
 @media (max-width: 320px) {
   .two__block {
-    height: 465px;
+    height: 480px;
   }
   #seven {
     display: none;
@@ -852,7 +852,7 @@ section {
 }
 @media (max-width: 380px) {
   .two__block {
-    height: 465px;
+    height: 480px;
   }
   #seven {
     display: none;
