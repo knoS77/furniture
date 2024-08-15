@@ -227,7 +227,7 @@ section {
 .two__block {
   position: relative;
   width: 250px;
-  height: 435px;
+  height: 430px;
   padding: 0px 0px 20px 0px;
   border-radius: 15px;
   border: 1px solid #000;
@@ -290,8 +290,7 @@ section {
   border: none;
   border-radius: 5px;
   background: #E3010F;
-  display: block;
-  margin: 10px auto;
+  margin: 10px 0 0 10px;
 }
 
 .three__body {
