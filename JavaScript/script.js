@@ -32,5 +32,10 @@ VK: Kniaz Sloyan
     })
 })
 
+window.addEventListener('click', windowFunction);
+
+function windowFunction(event){
+    burger.scrollIntoView(top);
+}
 
 
