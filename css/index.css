@@ -817,7 +817,7 @@ section {
   }
   .five__block {
     margin: 20px 0 0 0;
-    width: 300px;
+    max-width: 300px;
     height: 280px;
   }
   .five__block img {
