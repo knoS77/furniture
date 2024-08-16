@@ -861,3 +861,13 @@ section {
     display: none;
   }
 }
+@media (max-width: 500px) {
+  #seven {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  #seven {
+    display: none;
+  }
+}
