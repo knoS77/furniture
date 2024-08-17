@@ -30,4 +30,4 @@ Watsapp: +7-(996)-681-93-67
 VK: Kniaz Sloyan
         `)
     })
-})
+});
