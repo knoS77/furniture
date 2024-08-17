@@ -773,6 +773,7 @@ section {
   }
   .burger.active {
     position: fixed;
+    right: 20px;
   }
   .burger.active::before, .burger.active::after {
     background-color: #eee;
