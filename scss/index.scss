@@ -737,13 +737,15 @@ box-shadow: 0px 4px 20px 0px #96969640;
 }
 
 @media screen and (max-width: 375px){
-        .two__block {
-          height: 390px;
+    .two__block {
+        position: relative;
+        width: 250px;
+        height: 420px;
         }
-        .three__block {
-            width:280px;
-            height: 400px;
-        }
+    .three__block {
+        width:280px;
+        height: 420px;
+    }
         #seven {
           display: none;
         }

@@ -835,11 +835,13 @@ section {
 }
 @media screen and (max-width: 375px) {
   .two__block {
-    height: 390px;
+    position: relative;
+    width: 250px;
+    height: 420px;
   }
   .three__block {
     width: 280px;
-    height: 400px;
+    height: 420px;
   }
   #seven {
     display: none;
