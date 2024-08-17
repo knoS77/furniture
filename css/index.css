@@ -7,6 +7,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   padding: 10px 0 0 0;
   position: relative;
@@ -741,6 +745,7 @@ section {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    right: 15px;
   }
   .nav ul {
     display: none;
