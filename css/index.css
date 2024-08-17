@@ -800,7 +800,11 @@ section {
 }
 @media screen and (max-width: 320px) {
   .two__block {
-    height: 415px;
+    height: 420px;
+  }
+  .three__block {
+    width: 280px;
+    height: 400px;
   }
   #seven {
     display: none;
@@ -830,6 +834,10 @@ section {
 @media screen and (max-width: 375px) {
   .two__block {
     height: 390px;
+  }
+  .three__block {
+    width: 280px;
+    height: 400px;
   }
   #seven {
     display: none;

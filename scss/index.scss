@@ -697,10 +697,16 @@ box-shadow: 0px 4px 20px 0px #96969640;
 
 
 
+
+
 // Adaptive
 @media screen and (max-width: 320px){
     .two__block {
-      height: 415px;
+      height: 420px;
+    }
+    .three__block {
+        width:280px;
+        height: 400px;
     }
     #seven {
       display: none;
@@ -731,6 +737,10 @@ box-shadow: 0px 4px 20px 0px #96969640;
 @media screen and (max-width: 375px){
         .two__block {
           height: 390px;
+        }
+        .three__block {
+            width:280px;
+            height: 400px;
         }
         #seven {
           display: none;
