@@ -31,3 +31,67 @@ VK: Kniaz Sloyan
         `)
     })
 });
+
+
+
+
+// @media (max-width: 320px) {
+//     .two__block {
+//       height: 390px;
+//     }
+//     #seven {
+//       display: none;
+//     }
+//     .title {
+//       padding: 0px;
+//       font-size: 40px;
+//     }
+//     .title p {
+//       font-size: 40px;
+//     }
+//     .four__block {
+//       max-width: 300px;
+//     }
+//     .five__block {
+//       margin: 20px 0 0 0;
+//       max-width: 300px;
+//       height: 280px;
+//     }
+//     .five__block img {
+//       width: 300px;
+//     }
+//     .footer {
+//       height: 130px;
+//     }
+//   }
+
+
+//   @media (max-width: 375px) {
+//     .two__block {
+//       height: 390px;
+//     }
+//     #seven {
+//       display: none;
+//     }
+//     .title {
+//       padding: 0px;
+//       font-size: 40px;
+//     }
+//     .title p {
+//       font-size: 40px;
+//     }
+//     .four__block {
+//       max-width: 300px;
+//     }
+//     .five__block {
+//       margin: 20px 0 0 0;
+//       width: 300px;
+//       height: 280px;
+//     }
+//     .five__block img {
+//       width: 300px;
+//     }
+//     .footer {
+//       height: 130px;
+//     }
+//   }
