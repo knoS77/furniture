@@ -872,6 +872,15 @@ section {
   #seven {
     display: none;
   }
+  .two__block {
+    position: relative;
+    width: 250px;
+    height: 420px;
+  }
+  .three__block {
+    width: 280px;
+    height: 420px;
+  }
 }
 @media (max-width: 500px) {
   #seven {
