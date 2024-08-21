@@ -890,7 +890,7 @@ section {
     height: 130px;
   }
 }
-@media (max-width: 530px) {
+@media (max-width: 580px) {
   #seven {
     display: none;
   }
