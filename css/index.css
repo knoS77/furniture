@@ -236,8 +236,40 @@ section {
   border-radius: 15px;
   border: 1px solid #000;
 }
+.two__block:not(:nth-child(-n+8)) {
+  display: none;
+}
 .two__block img {
   height: 164px;
+}
+
+.two__show-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px 0 0 0px;
+}
+
+.show__button {
+  cursor: pointer;
+  color: white;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  width: 201px;
+  height: 49px;
+  border: none;
+  border-radius: 5px;
+  background: #E3010F;
+}
+.show__button:active {
+  -webkit-box-shadow: 0px 0px 10px 0px #000000 inset;
+          box-shadow: 0px 0px 10px 0px #000000 inset;
 }
 
 .two__body {

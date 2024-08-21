@@ -30,3 +30,68 @@ Watsapp: +7-(919)-884-43-03
         `)
     })
 });
+
+
+
+
+// section two Показать ещё
+let button = document.querySelector('.show__button');
+button.addEventListener('click', function(event){
+    let divOne = document.getElementById('new__block1');
+    let divTwo = document.getElementById('new__block2');
+    let divThree = document.getElementById('new__block3');
+    let divFour = document.getElementById('new__block4');
+
+    if (divOne.style.display !== 'none') {
+        divOne.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divOne.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
+
+    if (divTwo.style.display !== 'none') {
+        divTwo.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divTwo.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
+
+    if (divThree.style.display !== 'none') {
+        divThree.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divThree.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
+
+    if (divFour.style.display !== 'none') {
+        divFour.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divFour.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
+
+})
+// button.onclick = function(){
+    // let divOne = document.getElementById('new__block1');
+    // let divTwo = document.getElementById('new__block2');
+    // let divThree = document.getElementById('new__block3');
+    // let divFour = document.getElementById('new__block4');
+
+    // if (divOne.style.display !== 'none') {
+    //     divOne.style.display = 'none';
+    //             button.innerHTML = 'Весь каталог'
+    //     }
+    //     else {
+    //         divOne.style.display = 'block';
+    //         button.innerHTML = 'Свернуть';
+    // }
+// }
+
