@@ -236,6 +236,9 @@ section {
   border-radius: 15px;
   border: 1px solid #000;
 }
+.two__block img {
+  height: 164px;
+}
 
 .two__body {
   display: -webkit-box;
@@ -792,7 +795,7 @@ section {
   .three__subTitle {
     -moz-text-align-last: left;
          text-align-last: left;
-    margin: 15px 0 0 5px;
+    margin: 15px 0 0 0px;
   }
   .two__block {
     position: relative;
@@ -832,7 +835,7 @@ section {
   .three__subTitle {
     -moz-text-align-last: left;
          text-align-last: left;
-    margin: 15px 0 0 5px;
+    margin: 15px 0 0 0px;
   }
   .two__block {
     position: relative;
@@ -872,7 +875,7 @@ section {
   .three__subTitle {
     -moz-text-align-last: left;
          text-align-last: left;
-    margin: 15px 0 0 5px;
+    margin: 15px 0 0 0px;
   }
   #seven {
     display: none;
@@ -897,7 +900,7 @@ section {
   .three__subTitle {
     -moz-text-align-last: left;
          text-align-last: left;
-    margin: 15px 0 0 5px;
+    margin: 15px 0 0 0px;
   }
   .two__block {
     position: relative;
