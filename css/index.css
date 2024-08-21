@@ -316,7 +316,7 @@ section {
 .three__block {
   position: relative;
   width: 280px;
-  height: 380px;
+  height: 400px;
   padding: 0px 0px 20px 0px;
   border-radius: 15px;
   border: 2px solid black;
@@ -333,6 +333,7 @@ section {
 }
 .three__block-body img {
   border-radius: 13px;
+  height: 188px;
 }
 
 .three__block-title {
