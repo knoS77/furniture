@@ -241,6 +241,7 @@ section {
 }
 .two__block img {
   height: 164px;
+  border-radius: 15px;
 }
 
 .two__show-button {
@@ -301,7 +302,7 @@ section {
   color: #262626;
 }
 .two__material p {
-  padding: 6px 0;
+  padding: 4px 0;
 }
 .two__material span {
   font-size: 16px;

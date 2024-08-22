@@ -208,6 +208,7 @@ border: 1px solid #000;
 
 img{
     height: 164px;
+    border-radius: 15px;
 }
 }
 
@@ -248,7 +249,7 @@ flex-direction: column;
 }
 .two__material {
     margin: 0 5px;
-    p{padding: 6px 0;}
+    p{padding: 4px 0;}
     padding: 10px 0;
     color:#262626;
     span{
@@ -259,7 +260,6 @@ flex-direction: column;
     }
 }
 .two__price {
-    
     i{
         text-decoration: line-through;
     }

@@ -26,7 +26,7 @@ btns.forEach(function(btns){
 
 или напишите в одну их наших соц.сетей:
 Telegram: @Vazir161
-Watsapp: +7-(919)-884-43-03
+Whatsapp: +7-(919)-884-43-03
         `)
     })
 });
@@ -41,6 +41,93 @@ button.addEventListener('click', function(event){
     let divTwo = document.getElementById('new__block2');
     let divThree = document.getElementById('new__block3');
     let divFour = document.getElementById('new__block4');
+    let divFive = document.getElementById('new__block5')
+
+    let divSix = document.getElementById('new__block6');
+    let divSeven = document.getElementById('new__block7');
+    let divEith = document.getElementById('new__block8');
+    let divNine = document.getElementById('new__block9');
+    let divTen = document.getElementById('new__block10');
+
+    let divEleven = document.getElementById('new__block11');
+    let divTwelve = document.getElementById('new__block12');
+
+
+    if (divTwelve.style.display !== 'none') {
+        divTwelve.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divTwelve.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
+
+
+    if (divEleven.style.display !== 'none') {
+        divEleven.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divEleven.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
+
+
+    if (divTen.style.display !== 'none') {
+        divTen.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divTen.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
+
+
+    if (divNine.style.display !== 'none') {
+        divNine.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divNine.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
+
+    if (divEith.style.display !== 'none') {
+        divEith.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divEith.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
+
+    if (divSeven.style.display !== 'none') {
+        divSeven.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divSeven.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
+
+    if (divSix.style.display !== 'none') {
+        divSix.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divSix.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
+
+
+    if (divFive.style.display !== 'none') {
+        divFive.style.display = 'none';
+        button.innerText = 'Весь каталог'
+        }
+        else {
+            divFive.style.display = 'block';
+            button.innerText = 'Свернуть';
+    }
 
     if (divOne.style.display !== 'none') {
         divOne.style.display = 'none';
@@ -78,20 +165,6 @@ button.addEventListener('click', function(event){
             button.innerText = 'Свернуть';
     }
 
+
+
 })
-// button.onclick = function(){
-    // let divOne = document.getElementById('new__block1');
-    // let divTwo = document.getElementById('new__block2');
-    // let divThree = document.getElementById('new__block3');
-    // let divFour = document.getElementById('new__block4');
-
-    // if (divOne.style.display !== 'none') {
-    //     divOne.style.display = 'none';
-    //             button.innerHTML = 'Весь каталог'
-    //     }
-    //     else {
-    //         divOne.style.display = 'block';
-    //         button.innerHTML = 'Свернуть';
-    // }
-// }
-
